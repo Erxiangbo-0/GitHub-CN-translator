@@ -1,0 +1,73 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "1.1.0",
+  "description": "__MSG_extDescription__",
+  "default_locale": "zh_CN",
+  "author": "GitHub中文翻译插件",
+  "homepage_url": "https://github.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "GitHub 中文翻译"
+  },
+  "options_page": "options/options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*",
+        "https://*.github.com/*",
+        "https://docs.github.com/*",
+        "https://gist.github.com/*"
+      ],
+      "js": [
+        "locales/common.js",
+        "locales/ui.js",
+        "locales/modules.js",
+        "locales/docs.js",
+        "content/translator.js",
+        "content/ai-translator.js",
+        "content/observer.js",
+        "content/content.js"
+      ],
+      "css": [
+        "content/content.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://github.com/*",
+    "https://*.github.com/*",
+    "https://docs.github.com/*",
+    "https://gist.github.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "locales/*.js"
+      ],
+      "matches": [
+        "https://github.com/*",
+        "https://*.github.com/*",
+        "https://docs.github.com/*",
+        "https://gist.github.com/*"
+      ]
+    }
+  ]
+}

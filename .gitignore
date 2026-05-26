@@ -1,0 +1,25 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+check.py
+count.py
+
+# Temporary
+*.zip
+*.log

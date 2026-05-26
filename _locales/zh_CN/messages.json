@@ -1,0 +1,94 @@
+{
+  "extName": {
+    "message": "GitHub 中文翻译",
+    "description": "扩展名称"
+  },
+  "extDescription": {
+    "message": "将 GitHub 网站界面、功能模块术语和官方文档翻译为简体中文，让中文用户更轻松地使用 GitHub。",
+    "description": "扩展描述"
+  },
+  "toggleTranslation": {
+    "message": "切换翻译",
+    "description": "切换翻译开关"
+  },
+  "enableTranslation": {
+    "message": "启用翻译",
+    "description": "启用翻译"
+  },
+  "disableTranslation": {
+    "message": "禁用翻译",
+    "description": "禁用翻译"
+  },
+  "translationEnabled": {
+    "message": "翻译已启用",
+    "description": "翻译已启用状态"
+  },
+  "translationDisabled": {
+    "message": "翻译已禁用",
+    "description": "翻译已禁用状态"
+  },
+  "translationStatus": {
+    "message": "翻译状态",
+    "description": "翻译状态标签"
+  },
+  "translationModules": {
+    "message": "翻译模块",
+    "description": "翻译模块标题"
+  },
+  "uiElements": {
+    "message": "界面元素",
+    "description": "UI 界面翻译模块"
+  },
+  "uiElementsDesc": {
+    "message": "导航、按钮、文本等 UI 组件",
+    "description": "UI 模块描述"
+  },
+  "featureModules": {
+    "message": "功能模块",
+    "description": "功能模块翻译"
+  },
+  "featureModulesDesc": {
+    "message": "Issues、PR、Actions 等术语",
+    "description": "功能模块描述"
+  },
+  "officialDocs": {
+    "message": "官方文档",
+    "description": "文档翻译模块"
+  },
+  "officialDocsDesc": {
+    "message": "docs.github.com 文档翻译",
+    "description": "官方文档描述"
+  },
+  "commonTerms": {
+    "message": "通用术语",
+    "description": "通用术语翻译模块"
+  },
+  "commonTermsDesc": {
+    "message": "通用操作和常用词汇",
+    "description": "通用术语描述"
+  },
+  "supportedSites": {
+    "message": "支持站点",
+    "description": "支持的站点标题"
+  },
+  "pleaseUseOnGithub": {
+    "message": "请在 GitHub 页面上使用此插件",
+    "description": "非 GitHub 页面提示"
+  },
+  "translationEnabledStatus": {
+    "message": "翻译已启用 - 页面正在自动翻译中",
+    "description": "启用状态文本"
+  },
+  "translationDisabledStatus": {
+    "message": "翻译已禁用 - 页面显示原始英文",
+    "description": "禁用状态文本"
+  },
+  "checkingStatus": {
+    "message": "正在检查状态...",
+    "description": "检查状态"
+  },
+  "pluginFooter": {
+    "message": "GitHub 中文翻译插件",
+    "description": "页脚文本"
+  }
+}
